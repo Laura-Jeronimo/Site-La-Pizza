@@ -5,6 +5,11 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>La Pizza - Pizzaria</title>
+
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Fredoka:wght@300..700&display=swap" rel="stylesheet">
 </head>
 
 <body>
@@ -40,7 +45,7 @@
                     <article>
                         <figure>
                             <img src="img/pizza-margherita.jpeg" width="300" height="200"
-                            alt="Uma deliciosa pizza de margherita."/>
+                                alt="Uma deliciosa pizza de margherita." />
                         </figure>
                         <h3>Pizza de Margherita</h3>
                         <p>Molho de tomate, mozzarella e manjericão fresco.</p>
@@ -50,8 +55,7 @@
                     <!-- ITEM 2 -->
                     <article>
                         <figure>
-                            <img src="img/pizza-calabresa.jpeg" width="300" height="200"
-                            alt="Pizza de calabresa"/>
+                            <img src="img/pizza-calabresa.jpeg" width="300" height="200" alt="Pizza de calabresa" />
                         </figure>
                         <h3>Pizza de Calabresa</h3>
                         <p>Calabresa fatiada, cebola, mozzarella e cebola.</p>
@@ -62,7 +66,7 @@
                     <article>
                         <figure>
                             <img src="img/pizza-quatro-queijos.jpeg" width="300" height="200"
-                            alt="Pizza de Quatro Queijos"/>
+                                alt="Pizza de Quatro Queijos" />
                         </figure>
                         <h3>Pizza de Quatro Queijos</h3>
                         <p>Mozzarella, gorgonzola, provolone e parmesão.</p>
@@ -73,7 +77,7 @@
                     <article>
                         <figure>
                             <img src="img/pizza-frango-catupiry.jpeg" width="300" height="200"
-                            alt="Pizza de Frango com Catupiry"/>
+                                alt="Pizza de Frango com Catupiry" />
                         </figure>
                         <h3>Pizza de Frango com Catupiry</h3>
                         <p>Frango desfiado temperado, catupiry e milho.</p>
@@ -83,8 +87,7 @@
                     <!-- ITEM 5 -->
                     <article>
                         <figure>
-                            <img src="img/pizza-portuguesa.jpg" width="300" height="200"
-                            alt="Pizza Portuguesa"/>
+                            <img src="img/pizza-portuguesa.jpg" width="300" height="200" alt="Pizza Portuguesa" />
                         </figure>
                         <h3>Pizza Portuguesa</h3>
                         <p>Presunto, ovo, cebola, azeitona e pimentão.</p>
@@ -94,8 +97,8 @@
                     <!-- ITEM 6 -->
                     <article>
                         <figure>
-                            <img src="img/pizza-doce.jpg" width="300" height="200" 
-                            alt="Pizza de Chocolate com Morango"/>
+                            <img src="img/pizza-doce.jpg" width="300" height="200"
+                                alt="Pizza de Chocolate com Morango" />
                         </figure>
                         <h3>Pizza de Chocolate com Morango</h3>
                         <p>Creme de chocolate e morangos.</p>
@@ -111,23 +114,48 @@
                 <form>
                     <label>
                         Nome:
-                        <input type="text" placeholder="Digite seu nome completo..." 
-                        name="nome" required />
+                        <input type="text" placeholder="Digite seu nome completo..." name="nome" required />
                     </label>
                     <label>
                         Telefone:
-                        <input type="tel" placeholder="(11) 91111-1111" name="telefone"
-                        required/>
+                        <input type="tel" placeholder="(11) 91111-1111" name="telefone" required />
                     </label>
                     <label>
                         Mensagem:
                         <textarea name="mensagem" placeholder="Escreva sua mensagem..." rows="5"></textarea>
                     </label>
-                    <input type="submit" name="enviar"/>
+                    <input type="submit" name="enviar" />
                 </form>
+            </div>
+            <div>
+                <h3>Onde estamos</h3>
+                <p>R. Bélgica, 88 - Jardim Alvorada
+                    Ribeirão Pires - SP
+                    <strong>Abertos de seg a dom</strong> 18h às 23h
+                </p>
+                <figure>
+                    <iframe
+                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3653.215313723261!2d-46.416657023755945!3d-23.704003866849852!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94ce6cf6b9a660b5%3A0xb470d63bf1a2159e!2sEtec%20de%20Ribeir%C3%A3o%20Pires!5e0!3m2!1spt-PT!2sbr!4v1758976544063!5m2!1spt-PT!2sbr"
+                        width="40%" height="80%" style="border:0;" allowfullscreen="" loading="lazy"
+                        referrerpolicy="no-referrer-when-downgrade"></iframe>
+                </figure>
             </div>
         </section>
     </main>
+
+    <footer>
+        <div>
+            <small>
+                ©
+                <strong>2025</strong>
+                La Pizza - Feito para aprender
+            </small>
+            <a href="#">
+                ↑ Ir para o topo
+            </a>
+        </div>
+    </footer>
+
 </body>
 
 </html>
